@@ -9,6 +9,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Playfair+Display:wght@700&display=swap');
         
         body { font-family: 'Montserrat', sans-serif; }
+        
         .font-serif { font-family: 'Playfair Display', serif; }
         
         .no-select {
@@ -26,25 +27,32 @@
           );
           pointer-events: none;
         }
-
+        
         .animate-fade-in {
           animation: fadeIn 0.4s ease-out forwards;
         }
-
+        
         @keyframes fadeIn {
           from { opacity: 0; transform: translateY(10px); }
           to { opacity: 1; transform: translateY(0); }
         }
-
+        
         /* Cores customizadas baseadas nas constantes */
+        
         .bg-primary { background-color: #ffb749; }
+        
         .text-primary { color: #ffb749; }
+        
         .border-primary { border-color: #ffb749; }
+        
         .bg-whatsapp { background-color: #25D366; }
+        
         .bg-accent { background-color: #75ff53; }
+        
         .bg-secondary { background-color: #1bcbe9; }
     </style>
 <link rel="stylesheet" href="/index.css">
+  <script type="module" crossorigin src="/assets/index-B5Qt9EMX.js"></script>
 </head>
 <body class="bg-white antialiased">
 
@@ -58,7 +66,7 @@
                 <div class="relative mb-4">
                     <div class="absolute inset-0 bg-white/20 backdrop-blur-md rounded-full -m-4"></div>
                     <div class="w-32 h-32 rounded-full border-4 border-[#ffb749] overflow-hidden bg-white shadow-xl relative z-10 flex items-center justify-center">
-                        <img src="img/logo afago.png" alt="AFAGO Logo" class="w-full h-full object-contain">
+                        <img src="/assets/logo%20afago-BdfeGfJW.png" alt="AFAGO Logo" class="w-full h-full object-contain">
                     </div>
                 </div>
                 <h1 class="text-2xl font-bold tracking-wider text-gray-800 uppercase">DONUTS AFAGO</h1>
@@ -91,7 +99,7 @@
             <div class="max-w-7xl mx-auto px-4 h-full flex items-center justify-between">
                 <div class="flex items-center gap-4">
                     <button onclick="changeSection('HOME')" class="w-14 h-14 rounded-full border-2 border-primary overflow-hidden flex items-center justify-center bg-white hover:scale-105 transition p-1">
-                        <img src="img/logo afago.png" alt="Logo" class="w-full h-full object-contain">
+                        <img src="/assets/logo%20afago-BdfeGfJW.png" alt="Logo" class="w-full h-full object-contain">
                     </button>
                     <span class="md:hidden font-bold text-gray-800 tracking-tight text-lg uppercase">DONUTS AFAGO</span>
                     
@@ -467,6 +475,5 @@
             updateNavUI();
         });
     </script>
-<script type="module" src="/index.tsx"></script>
 </body>
 </html>
